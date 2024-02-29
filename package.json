@@ -1,6 +1,6 @@
 {
   "name": "img-resize-package",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An npm package to resize images",
   "main": "index.js",
   "type": "module",
