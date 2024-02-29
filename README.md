@@ -1,20 +1,18 @@
+# Image Resize using JavaScript
 
-# Image Resize using javascript
+This is a simple npm package for resizing images easily.
 
-This is a simple NPM package to resize the images easily.
+## CDN
 
+You can use the following CDN link to include the package:
 
-CDN : 
+```html
 <script src="https://cdn.jsdelivr.net/gh/AtharvaChobe/resize.js/index.js"></script>
 
+Demo
+To see a demonstration, create a simple index.js file and paste the following code. Then, use the resizeImage function with the specified parameters.
 
-
-## Demo
-
-Create a simple index.js file and paste the code code.
-use the resizeImage function with the parameters.
-
-### resizeImage(input image, output image, height, width)
+resizeImage(inputImage, outputImage, height, width)
 
 <!DOCTYPE html>
 <html lang="en">
@@ -28,7 +26,7 @@ use the resizeImage function with the parameters.
 <body>
 
     <h2>Before</h2>
-    <img src="/resize.js/IMG-20230429-WA0000.jpg" id="my-image1" alt="">
+    <img src="sample.jpg" id="my-image1" alt="">
 
     <hr>
 
@@ -42,3 +40,5 @@ use the resizeImage function with the parameters.
 </body>
 
 </html>
+
+Replace sample.jpg with the path to your input image and adjust the height and width parameters accordingly.
